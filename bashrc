@@ -25,10 +25,3 @@ alias vi='nvim'
 
 # Sets the environment variable TERM to xterm.
 export TERM=xterm
-
-# Modifies the PATH and other Perl-related environment variables to include directories related to Perl for proper Perl binaries and libraries inclusion in the environment.
-PATH="/home/ddominguez18/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/ddominguez18/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/ddominguez18/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/ddominguez18/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/ddominguez18/perl5"; export PERL_MM_OPT;
